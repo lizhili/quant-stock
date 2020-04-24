@@ -32,6 +32,7 @@ class PrUnit(ReUnit):
         ReUnit(self, pl)
   
  if __name__ == '__main__':
+    s = np.random.rand(10)-0.5 # array([ 0.29745375,  0.05835378, -0.20477995, -0.41623986, -0.44001312, 0.42641976,  0.29360252, -0.44805617,  0.19130221, -0.04300323])
     r = ReUnit()
     r.addDirect(1)
     r.addDirect(-1)
